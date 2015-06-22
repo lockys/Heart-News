@@ -1,0 +1,204 @@
+doctype html
+html.
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+      <title> ♥ 心聞 - 那一刻你想關注的</title>
+
+      <!-- CSS  -->
+      <link href="/stylesheets/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="/stylesheets/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="/stylesheets/data-ranger/classic-min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.0.1/sweetalert.min.css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=377359975712424";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+
+      <nav id="navigation" class="grey" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="/" class="brand-logo center"> 心聞</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="waves-effect waves-light modal-trigger" href="#modal1">關於我們
+          </ul>
+
+          <ul id="nav-mobile" class="side-nav">
+            <li><a class="waves-effect waves-light modal-trigger" href="#modal1">關於我們</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </div>
+      </nav>
+
+
+
+      <div class="section no-pad-bot" id="index-banner">
+
+        <div class="container">
+          <div class="progress row center">
+              <div class="indeterminate"></div>
+          </div>
+          <br><br>
+
+          <br><br>
+          <div class="row center">
+            <div id="html-canvas" class="canvas"></div>
+          </div>
+          <br><br>
+          <div class="row center">
+            # 嗨，請在下面選擇您想關注的新聞時間區間
+          </div>
+          <br/><br/>
+          <div id="data-ranger"></div>
+        </div>
+      </div>
+        <br><br>
+      </div>
+
+      <!-- Modal Structure -->
+      <div id="modal-word" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4><span class="header-word blue-text text-darken-2"></span></h4>
+          <div class="modal-date">
+
+          </div>
+          <div>更多相關字詞:
+            <span class="modal-recommendation">
+              <a class="" href="/">路人甲</a>、
+              <a class="" href="/">路人乙</a>、
+              <a class="" href="/">路人丙</a>、
+              <a class="" href="/">路人丁</a>、
+            </span>
+          </div>
+
+          <div id="chart_div"></div>
+
+          <ul class="collection modal-links">
+            <li href="#!" class="collection-item">連結讀取中..</li>
+          </ul>
+          <div class="fb-comments" data-href="http://heart-news.noip.me/#/" data-numposts="5"></div>
+
+          <!-- <div id="disqus_thread"></div> -->
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="modal-action modal-close waves-effect waves-green btn-flat ">關閉</a>
+        </div>
+      </div>
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>關於</h4>
+          <p>
+              在茫茫的新聞海中，您是否曾經迷失自我，心聞讓您快速找回游離地球資訊的自己。<br/>
+              我們誠摯推薦 - 心聞，最用心的新聞整合服務。<br/>
+              如果您喜歡心聞，<a href="#" id="thanks-btn">點我捐贈三杯咖啡給我們 :-)</a> 或 <span class="fb-like" data-href="http://heart-news.noip.me/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></span> 心聞。
+
+              <br/>
+              感謝 <a href="http://www.appledaily.com.tw/" target="_blank"> 蘋果日報 </a>, <a href="http://udn.com/news/index" target="_blank"> Udn </a>, <a href="http://www.chinatimes.com/" target="_blank"> China Time </a>
+              , <a href="http://www.pts.org.tw/" target="_blank">公共電視新聞</a>, <a href="http://www.ettoday.net/" target="_blank">東森新聞雲</a>, <a href="http://www.cna.com.tw/" target="_blank">中央社</a> 提供的新聞報導。
+          </p>
+          <h4>團隊</h4>
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-9/11390282_10207112942207649_5189234511503007156_n.jpg?oh=a2e329e8e8eb37a2cf00d5558a78861f&oe=55F69DBE&__gda__=1446313114_bd0711756f19e69429bf8dfba33990f5">
+                </div>
+                <div class="card-content">
+                  <p>
+                    自從我用心聞之後，我就把心聞設為首頁了!
+                  </p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">Backend, 有志 翁</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://avatars2.githubusercontent.com/u/3911469?v=3&s=460">
+                  </div>
+                  <div class="card-content">
+                    <p>
+                      我不能一天沒有心聞，它已經是我的家人一樣了!
+                    </p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">Fronted, 浩緯 鄭</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image">
+                      <img height="218" src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/299279_242249322493011_727807798_n.jpg?oh=8c3c7c84ace7cd500b5b665e3b6cb81e&oe=562C7AE8&__gda__=1445259065_4e8aaf58aec4d16c00d38073c45e791d">
+                    </div>
+                    <div class="card-content">
+                      <p>
+                        有了心聞，我接受新知零時差，和朋友聊天零尷尬!
+                      </p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">Backend, 子逸 張</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <a href="#" class=" modal-action modal-close waves-effect waves-green btn-flat">關閉</a>
+        </div>
+      </div>
+
+      <footer class="page-footer black">
+        <img src="http://materializecss.com/images/parallax1.jpg">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h3 class="white-text">什麼是 ♥ 心聞</h3>
+              <p class="grey-text text-lighten-4">
+                 我們 ♥ 新聞 <span class="fb-like" data-href="http://heart-news.noip.me/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></span> <br/>
+                 茫茫字海我們幫您選出最能代表現在的字詞<br/>
+                 讓您了解在地球上每一刻發生的大小事
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <a class="orange-text text-lighten-3" href="/">心聞</a> @ 貳零壹伍年 清華雲端程式設計，感謝 <a class="orange-text text-lighten-3" href="http://materializecss.com" target="_blank">Materialize</a> 的專案，感謝 <a class="orange-text text-lighten-3" href="https://github.com/timdream" target="_blank">timdream</a> 的 <a class="orange-text text-lighten-3" href="https://github.com/timdream/wordcloud2.js" target="_blank">wordcloud2.js</a>
+          </div>
+        </div>
+      </footer>
+
+
+      <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.1/jquery.timeago.js"></script>-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.0.1/sweetalert.min.js" charset="utf-8"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+      <script src="/javascripts/libs/data-range/jQDateRangeSlider-withRuler-min.js"></script>
+      <script src="/javascripts/libs/word-cloud/wordcloud2.js"></script>
+      <script src="/javascripts/libs/materialize/materialize.min.js"></script>
+      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+      <script src="/javascripts/init.js"></script>
+      <script type="text/javascript">
+            $("#thanks-btn").click(function(){
+              swal({ title: "Sweet!", text: "謝謝您的咖啡。", imageUrl: "http://t4t5.github.io/sweetalert/example/images/thumbs-up.jpg" });
+            });
+      </script>
+    </body>

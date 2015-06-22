@@ -1,0 +1,133 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body{
+  background-image: url('../images/bg/white_wall_hash.png') !important;
+}
+
+
+ /*unuseful now*/
+.icon-block {
+  padding: 0 15px;
+}
+
+#navigation{
+  background-image: url('../images/bg/restaurant.png') !important;
+}
+
+/* Effect 1: Brackets */
+#logo-container::before,
+#logo-container::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+#logo-container::before {
+	margin-right: 10px;
+	content: '我們用';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+#logo-container::after {
+	margin-left: 10px;
+	content: '看世界';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+#logo-container:hover::before,
+#logo-container:hover::after,
+#logo-container:focus::before,
+#logo-container:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+
+#html-canvas{
+  position: relative;
+  width: 100%;
+  height: 420px;
+  background-image: url('../images/bg/white_wall_hash.png') !important;
+}
+
+#html-canvas span{
+  cursor: pointer;
+  opacity: 0.45;
+  -webkit-transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -ms-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+#html-canvas span:hover{
+  opacity: 1;
+}
+
+#html-canvas.disable{
+    display: table;
+    color: grey;
+    background-image: url('https://www.blueskylimovail.com/wp-content/uploads/2012/11/cloud-background-resized2.jpg') !important;
+}
+
+#html-canvas h2{
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.progress{
+    position: absolute;
+    top: 50%;
+    width: 980px;
+    z-index: 999;
+}
+
+footer{
+  position: relative;
+  overflow: hidden;
+  opacity: 0.99;
+}
+
+footer img {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+}
+
+.fb-comments{
+    background: white;
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.fb-comments span{
+    display: table !important;
+    margin: 0 auto !important;
+}
+
+.news-timestamp{
+  font-size: 12px;
+  color: gray;
+}
+
+.content-hidden{
+  display: none;
+}
