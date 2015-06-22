@@ -10,10 +10,13 @@ _    _                 _     _   _
 
 ```
 # Description
-This site is a project of 2015 NTHU Cloud Programming.  
-What we did is to collect ten thousand+ news' content in Taiwan and tranform them into many word segments (about 250 thousands+ words) using Amazon EMR service.  
+This site is a project of 2015 NTHU Cloud Programming.
+
+What we did is to collect ten thousand+ news' content in Taiwan and tranform them into many word segments (about 250 thousands+ words) using Amazon EMR service.
+
 After that, we will build a word cloud from those word segments based on a given time range.  
 The more important word which may indiates what happend during that period will get bigger as you can see in the Screenshot. It may help users get to know what happened during a specific period.  
+
 Users can also select a time range to see what happened during that period.
 
 **The site is not available for now.**
@@ -39,8 +42,8 @@ Collect more news from past so that we can konw what happend in the past.
 **materialize framework**  
 [Dogfalo/materialize](https://github.com/Dogfalo/materialize)  
 
-**中文斷字 chinese word segmenter **  
+**中文斷字 chinese word segmenter**  
 [Stanford Word Segmenter](http://nlp.stanford.edu/software/segmenter.shtml)  
 
-** backbone.js **  
+**backbone.js**  
 [backbone.js](https://github.com/jashkenas/backbone)
