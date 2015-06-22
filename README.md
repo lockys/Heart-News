@@ -11,12 +11,13 @@ _    _                 _     _   _
 ```
 # Description
 This site is a project of 2015 NTHU Cloud Programming.  
-What we did is to collect ten thousand+ news' content in Taiwan and tranform then into many word segments (about 250 thousands+ words) using Amazon EMR service.
-After that, we will build a word cloud from those word segments based on a given time range. The more important word which may indiates what happend at that period will get bigger as you can see in the Screenshot.
-It may help users get to know what happened during a specific period.
+What we did is to collect ten thousand+ news' content in Taiwan and tranform then into many word segments (about 250 thousands+ words) using Amazon EMR service.  
+After that, we will build a word cloud from those word segments based on a given time range.
+The more important word which may indiates what happend at that period will get bigger as you can see in the Screenshot.  
+It may help users get to know what happened during a specific period.  
 Users can select a time range to see what happened during that period.
 
-** The site is not available for now.**
+**The site is not available for now.**
 
 # Screenshot
 ![Heart-News](/screenshot/1.png?raw=true "Heart-News")
@@ -24,7 +25,7 @@ Users can select a time range to see what happened during that period.
 ![Heart-News](/screenshot/2.png?raw=true "Heart-News")
 ![Heart-News](/screenshot/4.png?raw=true "Heart-News")
 
-# Contributor
+# Contributors
 - [yuzzwx](https://github.com/yuzzwx)
 - [lockys](https://github.com/lockys)
 - [joy610189](https://github.com/joy610189)
