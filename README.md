@@ -17,7 +17,7 @@ What we did is to collect ten thousand+ news' content in Taiwan and tranform the
 After that, we will build a word cloud from those word segments based on a given time range.  
 The more important word which may indiates what happend during that period will get bigger as you can see in the Screenshot. It may help users get to know what happened during a specific period.  
 
-** Website Features**  
+**Website Features**  
 Show news for a specific period in word cloud form.  
 Users can also select a time range to see what happened during that period.  
 Users can see news related to a word and the trending of that word.
